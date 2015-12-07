@@ -13,6 +13,7 @@ class UserRepository extends EntityRepository implements RepositoryInterface
      */
     public function add(EntityInterface $entity)
     {
+        $this->getEntityManager()->persist($entity);
     }
 
     /**
