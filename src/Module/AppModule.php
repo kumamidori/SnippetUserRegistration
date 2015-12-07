@@ -12,6 +12,10 @@ class AppModule extends AbstractModule
      */
     protected function configure()
     {
+        // default
         $this->install(new PackageModule);
+
+        // custom
+        $this->install(new Doctrine\DoctrineModule);
     }
 }
