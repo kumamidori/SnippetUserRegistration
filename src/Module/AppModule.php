@@ -17,5 +17,7 @@ class AppModule extends AbstractModule
 
         // custom
         $this->install(new Doctrine\DoctrineModule);
+        $this->install(new Entity\EntityModule);
+        $this->install(new Repository\RepositoryModule);
     }
 }
