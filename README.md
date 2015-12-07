@@ -7,7 +7,7 @@
 ## Usage
 
 ```
-php bootstrap/web.php post 'app://self/users/registration?lastName=KUMA&firstName=Nana&email=shigematsu.nana@gmail.com&password=testtest' 
+php bootstrap/api.php post 'app://self/users/registration?lastName=Kuma&firstName=Nana&email=shigematsu%2enana%40gmail%2ecom&password=testtest' 
 ```
 
 ## 説明用なので、下記は未実装
@@ -15,9 +15,7 @@ php bootstrap/web.php post 'app://self/users/registration?lastName=KUMA&firstNam
 - ユーザの有効化機能
 - メール送信機能
 - バリデーション
-- フォーム
-- ページフロー
-- デザイン
+- ページ、ページフロー
 
 # DB migration
 
