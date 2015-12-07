@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11113fca56533c78db158cf22ff12c1b",
-    "content-hash": "29298bb394bfc754bd8d3b9c1b24cc6c",
+    "hash": "d50a8c8e08c5c404295d69ed6e48ce86",
+    "content-hash": "c563d2de8fa34c3b708d0ec6d6ddc713",
     "packages": [
         {
             "name": "aura/cli",
@@ -1133,6 +1133,59 @@
                 "xml"
             ],
             "time": "2015-07-01 09:57:11"
+        },
+        {
+            "name": "phpmentors/domain-kata",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpmentors-jp/domain-kata.git",
+                "reference": "c2d6c671f32e5288a385b642f1d03a13c6c652b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpmentors-jp/domain-kata/zipball/c2d6c671f32e5288a385b642f1d03a13c6c652b3",
+                "reference": "c2d6c671f32e5288a385b642f1d03a13c6c652b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPMentors\\DomainKata\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "KUBO Atsuhiro",
+                    "email": "kubo@iteman.jp"
+                },
+                {
+                    "name": "GOTO Hidenori",
+                    "email": "hidenorigoto@gmail.com"
+                }
+            ],
+            "description": "Kata for domain models",
+            "keywords": [
+                "Domain Driven Design",
+                "architecture",
+                "ddd",
+                "design",
+                "generative programming",
+                "modeling"
+            ],
+            "time": "2015-06-13 01:52:47"
         },
         {
             "name": "psr/log",
